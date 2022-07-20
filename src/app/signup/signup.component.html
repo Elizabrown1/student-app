@@ -1,0 +1,22 @@
+<!-- <p>signup works!</p> -->
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row col-md-8 mt-5 mx-auto">
+        <div class="col-md-6 d-flex mx-auto border shadow">
+           <div class="mt-5  mx-auto">
+               <h3 class="mt-2">Register student</h3>
+               <input type="text" class="form-control mb-2" placeholder="Firstname" [(ngModel)]="student.firstName">
+               <input type="text" class="form-control mb-2" placeholder="Lastname" [(ngModel)]="student.lastName">
+               <input type="text" class="form-control mb-2" placeholder="Email" [(ngModel)]="student.email">
+               <input type="text" class="form-control mb-2" placeholder="Username" [(ngModel)]="student.userName">
+               <input type="text" class="form-control mb-2" placeholder="Phone" [(ngModel)]="student.PhoneNumber">
+               <button type="button" class="btn btn-outline btn-success w-100 " (click)="register()">Register</button>
+           </div>
+        </div>
+        <div class="col-6" style="background-color: #031956;;">
+            <div class="" style="margin-top: 200px;">
+            <app-student-details></app-student-details>
+        </div>
+        </div>
+    </div>
+</div>

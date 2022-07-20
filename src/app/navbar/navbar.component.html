@@ -1,0 +1,37 @@
+
+<!-- <router-outlet></router-outlet> -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top shadow" style="background-color: #031956;">
+    <div class="container">
+      <div class=" d-flex">
+          <a class="navbar-brand text-white" routerLink="/home" style="font-family: 'Quicksand', sans-serif; font-size: 30px; font-weight: bolder;"> 
+            Learn</a>
+          </div>
+          <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarID"
+              aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarID">
+            <ul class="navbar-nav align-items-center animate__animated animate__backInRight">
+              <li class="nav-item active">
+                <a class="nav-link text-light" aria-current="page" routerLink="/signup">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" routerLink="/home">About</a>
+              </li>
+              
+                  </ul>
+                  
+                  <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link text-primary btn btn-primary  text-center animate__animated animate__infinite animate__pulse" type="button" routerLink="/signup">SignUp</a>
+
+                  </li>
+                  <li class="nav-item" style="left: 10px;position:relative">
+                    <a class="nav-link text-primary btn  text-center animate__animated animate__infinite animate__pulse"  type="button" routerLink="/dashboard">Dashboard</a>
+
+                </li>
+                  
+              </ul>
+          </div>
+      </div>
+  </nav>

@@ -1,0 +1,21 @@
+img{
+    
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance:none ;
+    margin: 0;
+}
+input:focus, .btn:focus{
+    outline: none !important;
+    border-color: #77D29B !important;
+    box-shadow: 0 0 0px #77D29B !important;
+}
+::placeholder{
+    color: #77D29B;
+    font-size: 12px;
+} */
